@@ -33,7 +33,7 @@ class ParseController extends Controller
             //Request for Telegram
 
             $request = [
-                'chat_id' => '-1001340947863',
+                'chat_id' => '410773068',
                 'parse_mode' => 'html',
                 'text' => $data['date'] .' '.  $data['caption']['title'] .' '. $data['caption']['tag'].' '.$data['text']
             ];
